@@ -5,6 +5,7 @@ from typing import Dict, List, Tuple
 from openai import OpenAI
 
 from utils.router import search_all_indexes
+from utils.schedule_service import answer_schedule_query, is_schedule_query
 
 logger = logging.getLogger(__name__)
 
@@ -84,6 +85,23 @@ def normalize_query(query: str) -> str:
 
 def is_bca_it_query(query: str) -> bool:
     return bool(re.search(r"\b(BCA|BCA-IT|BCAIT)\b", query, flags=re.IGNORECASE))
+
+
+def is_simple_greeting(query: str) -> bool:
+    normalized = re.sub(r"[^a-z\s]", "", query.lower()).strip()
+    return normalized in {
+        "hi",
+        "hello",
+        "hey",
+        "namaste",
+        "good morning",
+        "good afternoon",
+        "good evening",
+    }
+
+
+def greeting_answer() -> str:
+    return "Namaste. How can I help you today?"
 
 
 def bca_it_fallback_answer() -> str:
@@ -177,6 +195,19 @@ def answer_receptionist(query: str, chat_history: List[Dict[str, str]]) -> Tuple
     query = normalize_query(query.strip())
     if not query:
         raise ValueError("Message cannot be empty.")
+
+    if is_simple_greeting(query):
+        response = greeting_answer()
+        chat_history.clear()
+        chat_history.append({"role": "user", "content": query})
+        chat_history.append({"role": "assistant", "content": response})
+        return response, {"source": "greeting", "model": "deterministic"}
+
+    if is_schedule_query(query):
+        response = answer_schedule_query(query)
+        chat_history.append({"role": "user", "content": query})
+        chat_history.append({"role": "assistant", "content": response})
+        return response, {"source": "schedule_time", "model": "deterministic"}
 
     source = "general"
     if is_college_related(query):

@@ -1,0 +1,9 @@
+{
+  "text": "I'm sorry you're feeling that way\u2014sometimes the workload can feel overwhelming. If you need help with anything related to Kantipur City College, like scheduling, office hours, or assistance with your studies, just let me know. I'm here to help!",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\3ab3068bcc9ea5cf33ce.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\3ab3068bcc9ea5cf33ce.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "3ab3068bcc9ea5cf33ce"
+}

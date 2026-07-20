@@ -36,6 +36,7 @@ const elements = {
 const VOLUME_THRESHOLD = 0.024;
 const MIN_SPEECH_MS = 300;
 const END_SILENCE_MS = 650;
+const PROTECTED_VOICE_TERMS = /\b(kcc|kantipur|college|bca|bca-it|bba|bbs|basw|admission|fee|course|program|ravi)\b/i;
 
 function setMode(mode, caption, status) {
   elements.stage.classList.remove("listening", "thinking", "speaking");
@@ -151,6 +152,17 @@ async function revealCaption(text, node) {
 function splitSentences(text) {
   const chunks = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [text];
   return chunks.map((chunk) => chunk.trim()).filter(Boolean);
+}
+
+function shouldIgnoreTranscript(data) {
+  const text = String(data.text || "").trim();
+  if (!text) return true;
+
+  const weakAudio = Number(data.no_speech_prob || 0) >= 0.55 || Number(data.avg_logprob || 0) <= -0.85;
+  const wordCount = text.split(/\s+/).filter(Boolean).length;
+  const protectedTerm = PROTECTED_VOICE_TERMS.test(text);
+  const hasQuestionShape = /\b(who|what|when|where|why|how|can|do|does|is|are|tell|show|explain)\b/i.test(text);
+  return weakAudio && !protectedTerm && !hasQuestionShape && wordCount <= 4;
 }
 
 async function speakAnswer(text) {
@@ -375,6 +387,12 @@ async function transcribeCurrentRecording() {
     const response = await fetch("/api/transcribe", { method: "POST", body: formData });
     const data = await response.json();
     if (!response.ok) throw new Error(data.detail || "Speech recognition failed.");
+    if (shouldIgnoreTranscript(data)) {
+      state.isBusy = false;
+      logMini("Ignored unclear background audio.");
+      setMode("listening", "I am listening.", "Voice is on");
+      return;
+    }
     elements.caption.textContent = data.text;
     state.isBusy = false;
     await sendChat(data.text, true);

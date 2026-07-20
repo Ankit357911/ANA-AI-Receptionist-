@@ -63,6 +63,8 @@ async function startReceptionist() {
     }
 
     state.booted = true;
+    state.sessionId = null;
+    localStorage.removeItem("anaLiveSessionId");
     elements.bootScreen.classList.add("hidden");
     elements.desk.classList.remove("hidden");
     setMode("idle", "Namaste. How can I help you?", "Ready");
@@ -100,10 +102,8 @@ async function askReceptionist(message) {
 
     if (data.video_url) {
       await playSyncedVideo(data.video_url, data.answer);
-    } else if (data.audio_url && state.speakerEnabled) {
-      await playAudioResponse(data.audio_url, data.answer);
     } else {
-      setMode("idle", data.answer, "Ready");
+      throw new Error("I am preparing the video response. Please try again in a moment.");
     }
   } catch (error) {
     setMode(state.micActive ? "listening" : "idle", error.message, state.micActive ? "Listening" : "Ready");
@@ -137,31 +137,9 @@ function playSyncedVideo(url, caption) {
     };
     setMode("speaking", caption, "Speaking");
     video.play().catch(() => {
-      video.muted = true;
-      video.play().catch(resolve);
-    });
-  });
-}
-
-function playAudioResponse(url, caption) {
-  return new Promise((resolve) => {
-    const video = elements.avatarVideo;
-    video.pause();
-    video.classList.add("hidden");
-    elements.avatarImage.classList.remove("hidden");
-
-    const audio = new Audio(`${url}?t=${Date.now()}`);
-    audio.onended = () => {
-      setMode("idle", caption, "Ready");
-      resolve();
-    };
-    audio.onerror = () => {
-      setMode("idle", caption, "Audio unavailable");
-      resolve();
-    };
-    setMode("speaking", caption, "Speaking");
-    audio.play().catch(() => {
-      setMode("idle", caption, "Ready");
+      video.classList.add("hidden");
+      elements.avatarImage.classList.remove("hidden");
+      setMode("idle", "Video playback was blocked. Please press Start or Send again.", "Playback blocked");
       resolve();
     });
   });

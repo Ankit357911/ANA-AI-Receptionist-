@@ -1,0 +1,9 @@
+{
+  "text": "The Bachelor of Computer Application (BCA) is an undergraduate program at Kantipur City College focused on computer science, software development, and information technology. It combines theoretical concepts with practical skills in areas like programming, databases, web development, and system analysis. Graduates develop skills in coding, application.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\2ff4d569f1b39795df75.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\2ff4d569f1b39795df75.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "2ff4d569f1b39795df75"
+}

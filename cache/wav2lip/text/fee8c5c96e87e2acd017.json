@@ -1,0 +1,9 @@
+{
+  "text": "Right now, it is 11:34 AM. Ravi sir is scheduled for MongoDB Basics from 11:00 AM to 12:00 PM.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\fee8c5c96e87e2acd017.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\fee8c5c96e87e2acd017.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "fee8c5c96e87e2acd017"
+}

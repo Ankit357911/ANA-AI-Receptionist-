@@ -1,0 +1,9 @@
+{
+  "text": "The BCA-IT program is a 4-year undergraduate course divided into 8 semesters. It focuses on areas like software development, information technology management, networking, cybersecurity, cloud computing, and data analytics. Special features include industry apprenticeships, IT workshops, software projects, networking and AI specializations, lab-based.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\2e62f275a742f897aa05.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\2e62f275a742f897aa05.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "2e62f275a742f897aa05"
+}

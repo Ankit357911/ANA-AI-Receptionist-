@@ -1,0 +1,5 @@
+[33m74a1980[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Remove runtime cache and logs from tracking
+[33m6702e61[m Add AI Receptionist system: frontend, voice, RAG services
+[33m520bfcb[m Updated AI receptionist code
+[33m6426951[m Added requirements file
+[33m03c041b[m Updated answer generation and app logic

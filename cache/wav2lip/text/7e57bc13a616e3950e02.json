@@ -1,0 +1,9 @@
+{
+  "text": "Ravi sir is currently in the MongoDB Basics class from 11:00 AM to 12:00 PM. If you need assistance or have any questions, feel free to ask!",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\7e57bc13a616e3950e02.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\7e57bc13a616e3950e02.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "7e57bc13a616e3950e02"
+}

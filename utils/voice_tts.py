@@ -26,7 +26,8 @@ class TextToSpeechService:
         self.sample_rate = sample_rate
         self._pipeline = None
         self._voice_ref = voice
-        self._device = "cpu"
+        self._preferred_device = os.getenv("ANA_TTS_DEVICE", "auto").strip().lower()
+        self._device = "unknown"
         self._mode = "kokoro"
         self._last_error: Optional[str] = None
         self._load_lock = threading.Lock()
@@ -37,13 +38,15 @@ class TextToSpeechService:
                 "status": "lazy",
                 "mode": self._mode,
                 "voice": self.voice,
+                "preferred_device": self._preferred_device,
                 "device": self._device,
-                "detail": self._last_error or "Kokoro CPU TTS will load on first speech request.",
+                "detail": self._last_error or "Kokoro TTS will load on first speech request.",
             }
         return {
             "status": "ready",
             "mode": self._mode,
             "voice": self.voice,
+            "preferred_device": self._preferred_device,
             "device": self._device,
         }
 
@@ -64,18 +67,25 @@ class TextToSpeechService:
             from kokoro.model import KModel
             from kokoro import KPipeline
 
-            self._device = "cpu"
+            self._device = self._resolve_torch_device(torch)
             torch.set_num_threads(max(1, min(4, torch.get_num_threads())))
-            logger.info("Loading Kokoro TTS voice=%s lang=%s on CPU", self.voice, self.lang_code)
+            logger.info("Loading Kokoro TTS voice=%s lang=%s on %s", self.voice, self.lang_code, self._device)
             local_model = self._load_local_kokoro_model(KModel)
-            self._pipeline = KPipeline(lang_code=self.lang_code, model=local_model, device="cpu")
+            self._pipeline = KPipeline(lang_code=self.lang_code, model=local_model, device=self._device)
             self._last_error = None
-            logger.info("Kokoro TTS ready on CPU with voice=%s", self.voice)
+            logger.info("Kokoro TTS ready on %s with voice=%s", self._device, self.voice)
         except Exception as exc:
             self._pipeline = None
             self._last_error = str(exc)
             logger.exception("Kokoro TTS initialization failed.")
             raise
+
+    def _resolve_torch_device(self, torch_module) -> str:
+        if self._preferred_device in {"cuda", "gpu"}:
+            return "cuda" if torch_module.cuda.is_available() else "cpu"
+        if self._preferred_device == "cpu":
+            return "cpu"
+        return "cuda" if torch_module.cuda.is_available() else "cpu"
 
     def synthesize_wav(self, text: str) -> bytes:
         text = (text or "").strip()

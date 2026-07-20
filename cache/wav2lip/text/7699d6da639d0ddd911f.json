@@ -1,0 +1,9 @@
+{
+  "text": "Right now, it is 6:51 AM. Ravi Sir is scheduled for Database Fundamentals from 6:00 AM to 7:00 AM.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\7699d6da639d0ddd911f.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\7699d6da639d0ddd911f.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "7699d6da639d0ddd911f"
+}
