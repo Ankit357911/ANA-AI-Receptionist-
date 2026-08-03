@@ -1,0 +1,9 @@
+{
+  "text": "Right now, it is 12:49 PM. Ravi Sir is scheduled for Lunch Break from 12:00 PM to 1:00 PM.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\e70edc24ab3a8857462e.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\e70edc24ab3a8857462e.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "e70edc24ab3a8857462e"
+}

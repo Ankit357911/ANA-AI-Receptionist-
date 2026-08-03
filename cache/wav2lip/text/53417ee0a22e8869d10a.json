@@ -1,0 +1,9 @@
+{
+  "text": "The Bachelor of Computer Application and Information Technology (BCA-IT) is a 4-year program divided into 8 semesters. In the first semester, core courses include Mathematics I, Computer System Concept, and Computer Programming in C. Additional courses in the second semester cover Microprocessor and Assembly Language, Object-Oriented Programming, and.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\53417ee0a22e8869d10a.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\53417ee0a22e8869d10a.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "53417ee0a22e8869d10a"
+}

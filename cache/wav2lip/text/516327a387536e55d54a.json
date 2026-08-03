@@ -1,0 +1,9 @@
+{
+  "text": "Hello! Good Morning! \u2600\ufe0f I hope you have a wonderful day ahead. How can I assist you today?",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\516327a387536e55d54a.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\516327a387536e55d54a.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "516327a387536e55d54a"
+}

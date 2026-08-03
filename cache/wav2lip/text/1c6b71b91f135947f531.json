@@ -1,0 +1,9 @@
+{
+  "text": "Hello! Good Night! I hope you had a pleasant day. If there's anything you need before you call it a day, I'm here to help. How can I assist you tonight?",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\1c6b71b91f135947f531.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\1c6b71b91f135947f531.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "1c6b71b91f135947f531"
+}

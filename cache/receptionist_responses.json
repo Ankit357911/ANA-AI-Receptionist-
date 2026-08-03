@@ -70,5 +70,221 @@
   "this is all the time": {
     "answer": "I'm sorry you're feeling that way\u2014sometimes the workload can feel overwhelming. If you need help with anything related to Kantipur City College, like scheduling, office hours, or assistance with your studies, just let me know. I'm here to help!",
     "updated_at": "2026-07-18T11:01:00"
+  },
+  "tell me baout kcc": {
+    "answer": "Kantipur City College (KCC) is a higher education institution located in Putalisadak, Kathmandu, Nepal. It focuses on producing skilled professionals capable of meeting modern academic and industrial challenges. The college emphasizes practical-based learning, industry-oriented education, and student-centered teaching, alongside academic excellence.",
+    "updated_at": "2026-07-22T13:59:00"
+  },
+  "can you tell me about bca": {
+    "answer": "The Bachelor of Computer Application and Information Technology (BCA-IT) at Kantipur City College focuses on areas such as software development, information technology management, networking, cybersecurity, cloud computing, and data analytics. It is a 4-year program divided into 8 semesters, preparing students for careers in technology and management.",
+    "updated_at": "2026-08-01T17:25:07"
+  },
+  "okayy tell me about more things about this collage": {
+    "answer": "I don't know specific details about Kantipur City College (KCC) from the college information. For accurate information, please consult the college's official resources or contact their administrative office.",
+    "updated_at": "2026-08-01T17:30:07"
+  },
+  "okayy how can i contact the collage can you have any information to contact": {
+    "answer": "I don't have access to specific contact information for Kantipur City College (KCC). For accurate details, please visit the college's official website or contact their administrative office directly. Let me know if you need help finding their website!",
+    "updated_at": "2026-08-01T17:31:19"
+  },
+  "yaa i need website": {
+    "answer": "You can visit the official website of Kantipur City College (KCC) at [https://www.kcc.edu.np](https://www.kcc.edu.np) for the latest information. If you need further assistance, feel free to contact the college's administrative office via their official contact details. Let me know if you need help finding their contact information!",
+    "updated_at": "2026-08-01T17:32:37"
+  },
+  "yaa i need contact info with phone number": {
+    "answer": "I don't have access to specific contact information for Kantipur City College (KCC). For accurate details, please visit the college's official website or contact their administrative office directly. Let me know if you need help finding their contact information!",
+    "updated_at": "2026-08-01T17:34:18"
+  },
+  "can you tell me about kcc team": {
+    "answer": "I don't know from the college information.",
+    "updated_at": "2026-08-01T18:04:49"
+  },
+  "can you tell me about creators club": {
+    "answer": "I don't have information about a \"Creators Club\" at Kantipur City College. If you have specific questions about the college's services or programs, feel free to ask!",
+    "updated_at": "2026-08-01T18:06:23"
+  },
+  "tell me about bca course": {
+    "answer": "The Bachelor of Computer Application and Information Technology (BCA-IT) is a 4-year program divided into 8 semesters. In the first semester, core courses include Mathematics I, Computer System Concept, and Computer Programming in C. Additional courses in the second semester cover Microprocessor and Assembly Language, Object-Oriented Programming, and.",
+    "updated_at": "2026-08-01T18:07:13"
+  },
+  "okay can you tell me wich should i choose bca ot bit": {
+    "answer": "BCA-IT at Kantipur City College is a four-year undergraduate program divided into eight semesters. It focuses on software development, information technology management, networking, cybersecurity, cloud computing, and data analytics. The program includes practical lab-based learning, software development projects, IT workshops and seminars, industry.",
+    "updated_at": "2026-08-01T18:17:57"
+  },
+  "difference between bca and bit": {
+    "answer": "BCA-IT at Kantipur City College is a four-year undergraduate program divided into eight semesters. It focuses on software development, information technology management, networking, cybersecurity, cloud computing, and data analytics. The program includes practical lab-based learning, software development projects, IT workshops and seminars, industry.",
+    "updated_at": "2026-08-01T18:18:37"
+  },
+  "tell me about creators club": {
+    "answer": "I don't know about the Creators Club at Kantipur City College. The college information doesn't mention this organization.",
+    "updated_at": "2026-08-01T18:20:46"
+  },
+  "http 127 0 0 1 8020": {
+    "answer": "I don't know what you're referring to. If you have questions about the college or Ravi Sir, feel free to ask!",
+    "updated_at": "2026-08-01T18:51:22"
+  },
+  "what programs are included in the curricular activities": {
+    "answer": "Cirricular includes cirricular; Program-wise Summary; Sports; Sports Week (Magh); Training; Administrative Training (Shrawan); Basic Computer Course Training (Shrawan); Motivation Training (Ashoj); and more.",
+    "updated_at": "2026-08-01T18:52:22"
+  },
+  "tell me about sqc": {
+    "answer": "I don't know from the college information.",
+    "updated_at": "2026-08-01T18:53:09"
+  },
+  "who are the members of sqc": {
+    "answer": "Sqc includes sqc; President: Kiran Silwal; Vice President: Niranjan Adhikari; Secretary: Aashish Chaudhary; Treasurer: Lani Dolma Sherpa; Program Coordination Lead(E): Bishnu Shrestha; Program Coordination Lead(M): Deepa Shree Dhamala; Program Coordination Lead(T): Sudeep Shrestha; and more.",
+    "updated_at": "2026-08-01T18:53:58"
+  },
+  "tell me about the curricular activities": {
+    "answer": "Cirricular includes cirricular; Program-wise Summary; Sports; Sports Week (Magh); Training; Administrative Training (Shrawan); Basic Computer Course Training (Shrawan); Motivation Training (Ashoj); and more.",
+    "updated_at": "2026-08-01T18:54:21"
+  },
+  "who is the president of the creators club": {
+    "answer": "Creators club includes creators club; Aadarsha Humagain- President; Kundan Kumar Kushwaha- VP; Secretary \u2013 Dipen Niraula; Treasurer \u2013 Resma Khadka; Vlog lead -Sujan Rai; Blog lead- Evika Shrestha; Podcast lead \u2013 Anjila Basnet; and more.",
+    "updated_at": "2026-08-01T18:55:10"
+  },
+  "what does the research management cell do": {
+    "answer": "Departments includes departments; Research Management Cell (RMC); In meeting its research goals the College may find it advantageous to establish formal; organizational structures to promote, facilitate, coordinate and collaborate all the Research; activities. The RMC at the College should establish within the context of this policy. No other; structure may.",
+    "updated_at": "2026-08-01T18:56:16"
+  },
+  "what career counseling support is provided": {
+    "answer": "I don't know from the college information.",
+    "updated_at": "2026-08-01T18:57:48"
+  },
+  "tell me about student services": {
+    "answer": "Student services includes about topics related to wellness.; Teaching students how to navigate the college experience and how to advocate for themselves.; Outreach programming including both preventative and developmental interventions.; Supporting the successful completion of educational goals.; Personal counseling services do not include any medical.",
+    "updated_at": "2026-08-01T18:58:59"
+  },
+  "which should i choose bca or bit": {
+    "answer": "BCA-IT at Kantipur City College is a four-year undergraduate program divided into eight semesters. It focuses on software development, information technology management, networking, cybersecurity, cloud computing, and data analytics. The program includes practical lab-based learning, software development projects, IT workshops and seminars, industry.",
+    "updated_at": "2026-08-01T19:00:22"
+  },
+  "tell me about bit": {
+    "answer": "The Bachelor of Information Technology (BIT) at Kantipur City College is a four-year undergraduate program designed to equip students with skills in programming, software development, database administration, networking, and information systems. The curriculum emphasizes practical learning, software design, system analysis, and computer networking.",
+    "updated_at": "2026-08-01T19:01:32"
+  },
+  "tell me about the departments": {
+    "answer": "Departments includes departments; Research Management Cell (RMC); In meeting its research goals the College may find it advantageous to establish formal; organizational structures to promote, facilitate, coordinate and collaborate all the Research; activities. The RMC at the College should establish within the context of this policy. No other; structure may.",
+    "updated_at": "2026-08-01T19:01:57"
+  },
+  "what are the activities of the international affairs department": {
+    "answer": "Departments includes nd other continents and provide information on funding possibilities.; It is the main responsibility of the Office of International Affairs to establish and maintain long- term and mutually beneficial partnerships with universities and businesses abroad.; Representatives from foreign universities and businesses are welcome to contact.",
+    "updated_at": "2026-08-01T19:03:27"
+  },
+  "okay tell me about admission requirements for bca-it course": {
+    "answer": "The admission requirements for the BCA-IT course at Kantipur City College include completing higher secondary education (+2 or equivalent), meeting minimum academic eligibility criteria, submitting academic transcripts, a character certificate, citizenship/identification documents, and passport-sized photographs. The process involves applying, providing.",
+    "updated_at": "2026-08-01T19:04:25"
+  },
+  "what does the research committee include": {
+    "answer": "Research Committee includes research Committee; Coordinator; Er. Rabi Shrestha \u2013 Head, Research Management Committee (RMC); Member Secretary; Mr. Rubim Shrestha \u2013 Faculty Member, Department of Information Technology (IT); Members; Dr. Deepak Bikram Thapa Chhetri \u2013 Director, Faculty of Engineering; Mr. Dal Bahadur Shrestha \u2013 Faculty Member, Department of.",
+    "updated_at": "2026-08-01T19:06:06"
+  },
+  "tell me about the kcc team": {
+    "answer": "Kcc team includes kcc team; Suman Katwal; Chairperson; Dr. Pralhad Karki; President; Member, Academic Council, PU; Associate Professor, PhD; Mina Khatry; and more.",
+    "updated_at": "2026-08-01T19:08:13"
+  },
+  "tell me about kcc": {
+    "answer": "Kcc team includes kcc team; Suman Katwal; Chairperson; Dr. Pralhad Karki; President; Member, Academic Council, PU; Associate Professor, PhD; Mina Khatry; and more.",
+    "updated_at": "2026-08-01T19:08:28"
+  },
+  "tell me about kcc collage": {
+    "answer": "Kantipur City College (KCC) is a higher education institution located in Putalisadak, Kathmandu, Nepal. It offers undergraduate and postgraduate programs in fields such as Information Technology, Engineering, Business Administration, Computer Applications, Artificial Intelligence, and Management. Known for its focus on practical learning, industry-oriented.",
+    "updated_at": "2026-08-01T19:09:18"
+  },
+  "what is the department of international affairs": {
+    "answer": "Departments includes nd other continents and provide information on funding possibilities.; It is the main responsibility of the Office of International Affairs to establish and maintain long- term and mutually beneficial partnerships with universities and businesses abroad.; Representatives from foreign universities and businesses are welcome to contact.",
+    "updated_at": "2026-08-01T19:10:22"
+  },
+  "can you tell me about kcc college": {
+    "answer": "Kantipur City College (KCC) is a reputable institution located in Kathmandu, Nepal, offering undergraduate programs in fields like management, information technology, social sciences, and commerce. Known for its industry-oriented approach, the college emphasizes practical learning, project-based education, and a student-centered methodology. It focuses on.",
+    "updated_at": "2026-08-01T19:12:08"
+  },
+  "tell me about collage team": {
+    "answer": "Collage team includes collage team; Suman Katwal; Chairperson; Dr. Pralhad Karki; President; Member, Academic Council, PU; Associate Professor, PhD; Mina Khatry; and more.",
+    "updated_at": "2026-08-01T19:15:30"
+  },
+  "good morning": {
+    "answer": "Namaste. How can I help you today?",
+    "updated_at": "2026-08-02T09:02:02"
+  },
+  "good mornig": {
+    "answer": "Namaste. How can I assist you today?",
+    "updated_at": "2026-08-02T09:03:44"
+  },
+  "tell me about basw": {
+    "answer": "I don't know about the BASW course at Kantipur City College. The college information doesn't mention this program. Let me know if you'd like help with BCA or BIT instead!",
+    "updated_at": "2026-08-02T09:26:17"
+  },
+  "tell me about basw course": {
+    "answer": "The Bachelor in Social Work (BASW) at Kantipur City College focuses on community development, counseling, and social service. It covers areas like social work principles, human behavior, social welfare, and field work, preparing students for careers in social sectors.",
+    "updated_at": "2026-08-02T09:27:21"
+  },
+  "can you tell me the learning approach also": {
+    "answer": "The learning approach at Kantipur City College for BCA, BIT, and BASW emphasizes a blend of theoretical knowledge and practical skills. Students engage in lab-based learning, IT workshops, industry collaborations, and project-based assignments to develop real-world expertise. Internships and specialization areas are integrated to prepare students for.",
+    "updated_at": "2026-08-02T09:30:55"
+  },
+  "heyyy good mornig": {
+    "answer": "Namaste! How can I assist you today?",
+    "updated_at": "2026-08-02T09:31:48"
+  },
+  "okay tell me baout collage overview": {
+    "answer": "Kantipur City College (KCC) offers undergraduate programs in management, information technology, and social sciences. Known for its practical and industry-oriented approach, the college emphasizes project-based learning, student-centered teaching, and support for academic and career development. It also provides extracurricular activities to foster holistic.",
+    "updated_at": "2026-08-02T18:44:16"
+  },
+  "tell me sth about sdsn": {
+    "answer": "I don't know what you're referring to. Could you please provide more college information or check the spelling?",
+    "updated_at": "2026-08-02T18:59:07"
+  },
+  "what after bbs": {
+    "answer": "BBS Program includes BBS_Program; # Bachelor of Business Studies (BBS); ## Metadata; Program: BBS; Institution: Kantipur City College; Category: Program Details; Tags: BBS, business studies, management, commerce; ## Program Overview; and more.",
+    "updated_at": "2026-08-03T11:40:36"
+  },
+  "goood morning": {
+    "answer": "Good morning! I'm glad you're here. If you're looking to explore your next steps after BBS, KCC offers various programs like MBA in Business Administration, certifications in management, and specialized courses in areas like marketing, finance, and human resources. Let me know if you'd like more details!",
+    "updated_at": "2026-08-03T11:47:11"
+  },
+  "eligibility criteria for bbs": {
+    "answer": "Eligibility Criteria includes Eligibility_Criteria; Institution: Kantipur City College; Category: Eligibility; Tags: eligibility, criteria, academics, admissions; Completion of +2 or equivalent education; Interest in computer and technology studies; Background in management or related studies may be preferred; Interest i; and more.",
+    "updated_at": "2026-08-03T12:08:28"
+  },
+  "tell me about bsaw": {
+    "answer": "I don't know about the BSAW course at Kantipur City College. The college information doesn't mention this program. Let me know if you'd like help with BCA or BIT instead!",
+    "updated_at": "2026-08-03T12:11:07"
+  },
+  "carrer opportunities after basw course": {
+    "answer": "Undergraduate Programs includes Management; Focus: Management, accounting, finance, business operations; Field: Social Sciences; Focus: Community development, social service, counseling; Semester-based academic structure; Practical and theoretical learning; Industry-oriented curriculum; Project and presentation activities; and more.",
+    "updated_at": "2026-08-03T12:13:39"
+  },
+  "tell me again": {
+    "answer": "After completing the Bachelor of Computer Application (BCA) at Kantipur City College, career opportunities include roles such as Software Developer, Web Developer, Database Administrator, Technical Support Specialist, and Social Media Manager. For the Bachelor of Information Technology (BIT), opportunities include System Analyst, Programmer, Product.",
+    "updated_at": "2026-08-03T12:42:40"
+  },
+  "what carrer opportuinites i ll get after bbs": {
+    "answer": "BBS at Kantipur City College is an undergraduate program. Bachelor of Business Studies (BBS) is an undergraduate management program focused on business administration, finance, accounting, and organizational management. Main study areas include Accounting, Finance, Marketing, Business Communication, Economics, Human Resource Man. Students develop skills.",
+    "updated_at": "2026-08-03T12:44:57"
+  },
+  "what are the carrer opportunities after bbs": {
+    "answer": "BBS at Kantipur City College is an undergraduate program. Bachelor of Business Studies (BBS) is an undergraduate management program focused on business administration, finance, accounting, and organizational management. Main study areas include Accounting, Finance, Marketing, Business Communication, Economics, Human Resource Man. Students develop skills.",
+    "updated_at": "2026-08-03T12:45:25"
+  },
+  "what can be the carrer opportunitues after bbs": {
+    "answer": "BBS at Kantipur City College is an undergraduate program. Bachelor of Business Studies (BBS) is an undergraduate management program focused on business administration, finance, accounting, and organizational management. Main study areas include Accounting, Finance, Marketing, Business Communication, Economics, Human Resource Man. Students develop skills.",
+    "updated_at": "2026-08-03T13:02:06"
+  },
+  "what can be the carrer opportunitues after basw": {
+    "answer": "After completing a Bachelor of Social Work (BASW) at Kantipur City College, graduates can pursue careers in roles such as Community Development Specialist, Counselor, Social Worker, NGO/INGO Professional, Development Officer, Human Services Specialist, or Social Policy Analyst. The program emphasizes community engagement, social welfare, and professional.",
+    "updated_at": "2026-08-03T13:03:27"
+  },
+  "eligibility critriea for bbs": {
+    "answer": "For BBS, the eligibility criteria are: Completion of +2 or equivalent education; Background in management or related studies may be preferred.",
+    "updated_at": "2026-08-03T13:14:44"
+  },
+  "eligibility criteria for basw": {
+    "answer": "For BASW, the eligibility criteria are: Completion of +2 or equivalent education; Interest i; Interest in social work and community development. General notes: Equivalent qualifications may be accepted; Students must meet institutional academic standards.",
+    "updated_at": "2026-08-03T13:15:30"
+  },
+  "for 1st year and 2nd semester": {
+    "answer": "Collage info includes BCA-IT COURSE STRUCTURE; YEAR I \u2013 SEMESTER I; Core Courses:; Mathematics I; Computer System Concept; Computer Programming in C; Digital Logic; Computer Project I; and more.",
+    "updated_at": "2026-08-03T13:18:37"
   }
 }

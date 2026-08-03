@@ -1,0 +1,9 @@
+{
+  "text": "The Bachelor of Information Technology (BIT) is a four-year undergraduate program designed to equip students with skills in programming, software development, database administration, networking, and information systems. The curriculum emphasizes practical learning, software design, and system analysis, with core courses spanning mathematics, computer.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\afc40cd46a9897934651.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\afc40cd46a9897934651.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "afc40cd46a9897934651"
+}

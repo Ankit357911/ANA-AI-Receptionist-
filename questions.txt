@@ -1,0 +1,59 @@
+cirricular.txt
+What programs are included in the curricular activities?
+Tell me about the curricular activities.
+What kinds of events are listed in the curricular file?
+What training and awareness programs are mentioned?
+
+creators club.txt
+Who are the members of the creators club?
+Tell me about the creators club.
+Who is the president of the creators club?
+What roles are listed in the creators club?
+
+departments.txt
+Tell me about the departments.
+What does the Research Management Cell do?
+What is the Placement Cell?
+What is the Department of International Affairs?
+What are the activities of the international affairs department?
+
+IT club.txt
+Who are the members of the IT club?
+Tell me about the IT club.
+Who is the president of the IT club?
+What roles are listed in the IT club?
+
+kcc team.txt
+Who are the members of the KCC team?
+Tell me about the KCC team.
+Who is the principal in the KCC team list?
+Who is the chairperson of KCC?
+
+research Committee.txt
+Tell me about the research committee.
+Who are the members of the research committee?
+Who is the coordinator of the research committee?
+What does the research committee include?
+
+sdsn club.txt
+Tell me about the SDSN club.
+Who are the members of the SDSN club?
+Who is the president of the SDSN club?
+What roles are listed in the SDSN club?
+
+student services.txt
+Tell me about student services.
+What counseling services are available?
+What career counseling support is provided?
+What student support facilities are mentioned?
+
+sqc.txt
+Tell me about SQC.
+Who are the members of SQC?
+What roles are listed in SQC?
+Who is the president of SQC?
+
+Good general pattern for these new files:
+Tell me about [file topic]
+Who are the members of [club/team/committee]?
+What roles are listed in [club/team/committee]?

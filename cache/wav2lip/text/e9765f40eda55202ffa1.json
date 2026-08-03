@@ -1,0 +1,9 @@
+{
+  "text": "BBS Program includes BBS_Program; # Bachelor of Business Studies (BBS); ## Metadata; Program: BBS; Institution: Kantipur City College; Category: Program Details; Tags: BBS, business studies, management, commerce; ## Program Overview; and more.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\e9765f40eda55202ffa1.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\e9765f40eda55202ffa1.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "e9765f40eda55202ffa1"
+}

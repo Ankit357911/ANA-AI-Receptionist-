@@ -1,0 +1,9 @@
+{
+  "text": "Good Night! Welcome to Kantipur City College. I'm ANA, your AI Receptionist. Feel free to ask me anything about our college.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\06c48eb87f18464acf94.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\06c48eb87f18464acf94.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "06c48eb87f18464acf94"
+}

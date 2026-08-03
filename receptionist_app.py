@@ -259,7 +259,54 @@ def _can_use_response_cache(message: str) -> bool:
         return False
     if is_schedule_query(message):
         return False
+    if _looks_like_greeting_query(normalized):
+        return False
+    if _looks_like_college_query(normalized):
+        return False
     return not re.match(r"^(what about|and|also|it|that|those|they|he|she|his|her)\b", normalized)
+
+
+def _looks_like_college_query(normalized_message: str) -> bool:
+    keywords = (
+        "kcc",
+        "college",
+        "kantipur",
+        "admission",
+        "bca",
+        "bit",
+        "bba",
+        "club",
+        "team",
+        "committee",
+        "department",
+        "service",
+        "student",
+        "research",
+        "curricular",
+        "cirricular",
+    )
+    return any(keyword in normalized_message for keyword in keywords)
+
+
+def _looks_like_greeting_query(normalized_message: str) -> bool:
+    normalized_message = re.sub(r"(.)\1{2,}", r"\1\1", normalized_message)
+    return any(
+        phrase in normalized_message
+        for phrase in (
+            "hello",
+            "hi",
+            "hey",
+            "namaste",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "good night",
+            "good mornig",
+            "good mornin",
+            "good afternon",
+            "good evning",
+        )
+    )
 
 
 def _response_cache_key(message: str) -> str:

@@ -1,0 +1,9 @@
+{
+  "text": "Right now, it is 6:49 PM. Ravi Sir's scheduled working hours ended at 6:00 PM.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\66fff2aef2f8b87bd580.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\66fff2aef2f8b87bd580.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "66fff2aef2f8b87bd580"
+}

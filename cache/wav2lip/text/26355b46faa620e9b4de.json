@@ -1,0 +1,9 @@
+{
+  "text": "Kantipur City College (KCC) is a reputable institution located in Kathmandu, Nepal, offering undergraduate programs in fields like management, information technology, social sciences, and commerce. Known for its industry-oriented approach, the college emphasizes practical learning, project-based education, and a student-centered methodology. It focuses on.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\26355b46faa620e9b4de.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\26355b46faa620e9b4de.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "26355b46faa620e9b4de"
+}

@@ -1,0 +1,49 @@
+Program-wise Summary
+1. Sports
+Sports Week (Magh)
+
+2. Training
+Administrative Training (Shrawan)
+Basic Computer Course Training (Shrawan)
+Motivation Training (Ashoj)
+
+3. Refreshments
+One Day Picnic (Poush)
+Tour (Falgun)
+One Night Stay Refreshments (Baisakh)
+Engineering Day (Shrawan)
+Dashain/Tihar Programme (Ashoj)
+Teej Programme (Bhadra)
+Hiking (Poush)
+Welcome Programme (Bhadra)
+Teachers Day (Bhadra)
+Farewell Programme (Bhadra)
+
+4. Community Programs
+Blood Donation (Jestha)
+Cleanliness Programmes (Asadh)
+Tree Plantation (Shrawan)
+Tally Software Training on Community School (Jestha)
+Importance of AI (Asadh)
+Community Development Programs (Shrawan)
+
+5. Donation
+Clothes Donation (Ashoj)
+
+6. Food Donation
+College Day (Food Donation) (Chaitra)
+
+7. Awareness Program
+Disaster Awareness & Simulation Exercise (Magh)
+General Awareness Program (Magh)
+Women Violence Awareness Program (Mangshir)
+AIDS Awareness (Magh)
+Cyber Security Awareness Program (Baisakh)
+Environmental Awareness (Poush)
+
+8. Camps
+Medical Camps (Jestha)
+Blood Donation Camps (Jestha)
+
+9. Exhibition & Career Fair
+Exhibition & Career Fair Programs (Bhadra)

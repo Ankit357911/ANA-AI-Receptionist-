@@ -1,0 +1,9 @@
+{
+  "text": "Right now, it is 5:34 PM. Ravi Sir is scheduled for Daily Review & Student Support from 5:30 PM to 6:00 PM.",
+  "video": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\media\\c9ab0416007d2c3a079b.mp4",
+  "audio": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\cache\\wav2lip\\audio\\c9ab0416007d2c3a079b.wav",
+  "avatar": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\assets\\avatar\\nepali_receptionist_neutral.png",
+  "checkpoint": "C:\\Users\\Acer\\Desktop\\ml_chatbot\\Wav2Lip\\checkpoints\\wav2lip_gan.pth",
+  "fps": "15",
+  "cache_key": "c9ab0416007d2c3a079b"
+}
